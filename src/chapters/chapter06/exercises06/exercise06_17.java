@@ -11,9 +11,11 @@ public class exercise06_17 {
     }
 
     public static void makeMatrix(int n) {
-        for (int i = 0; i < n; i++)
-            for (int j = 0; j < n; j++)
-                System.out.println((int) (Math.random() * 2) + " ");
-        System.out.println();
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print((int) (Math.random() * 2) + " ");
+            }
+            System.out.println();
+        }
     }
 }
