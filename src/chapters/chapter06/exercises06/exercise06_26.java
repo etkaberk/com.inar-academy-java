@@ -37,7 +37,7 @@ public class exercise06_26 {
 
         if (isPrime(number)) {
             int spare = number;
-            int k = 0;
+            int k ;
             int reverse = 0;
 
             while (number > 0) {
@@ -45,9 +45,10 @@ public class exercise06_26 {
                 reverse = reverse * 10 + k;
                 number /= 10;
             }
-            if (spare == reverse) {
+            if(spare == reverse) {
                 return true;
             }
+
         }
         return false;
     }
