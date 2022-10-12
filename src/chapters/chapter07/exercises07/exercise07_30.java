@@ -1,0 +1,38 @@
+package chapters.chapter07.exercises07;
+
+import java.util.Scanner;
+
+public class exercise07_30 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter the number of values : ");
+        int[] list = createList(input.nextInt(), input);
+
+        System.out.println("The list has " + (isConsecutiveFour(list) ? "" : "no ") + "consecutive fours");
+    }
+
+    public static boolean isConsecutiveFour(int[] list) {
+        int count = 1;
+        for(int i = 0; i < list.length - 1; i++) {
+            if (list[i] == list[i + 1]) {
+                count++;
+            } else {
+                count = 1;
+            }
+
+            if (count == 4) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public static int[] createList(int length, Scanner input) {
+        System.out.println("Enter numbers --> ");
+        int[] result = new int[length];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = input.nextInt();
+        }
+        return result;
+    }
+}
