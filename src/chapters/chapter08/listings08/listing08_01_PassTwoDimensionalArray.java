@@ -2,7 +2,7 @@ package chapters.chapter08.listings08;
 
 import java.util.Scanner;
 
-public class listing08_01 {
+public class listing08_01_PassTwoDimensionalArray {
     public static void main(String[] args) {
         int[][] m = getArray();
 
