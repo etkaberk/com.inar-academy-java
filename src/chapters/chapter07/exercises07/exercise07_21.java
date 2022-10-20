@@ -24,7 +24,7 @@ public class exercise07_21 {
     public static void dropBalls(int[] slots, int numberOfBalls) {
         int leftOrRight;
         String way;
-        // Drop all balls and observe their way
+
         for (int i = 0; i < numberOfBalls; i++) {
             way = "";
             for (int j = 0; j < slots.length - 1; j++) {
@@ -43,7 +43,7 @@ public class exercise07_21 {
     public static void whereTheBallFall(int[] slots, String s) {
         int countR = 0;
         char[] way = s.toCharArray();
-        // In our way if it just had one turn to right it will fall into slot 1, if it has 2 right falls into slot2...
+
         for (int i = 0; i < way.length; i++) {
             if (way[i] == 'R')
                 countR++;
@@ -52,17 +52,17 @@ public class exercise07_21 {
     }
 
     public static void printBuildupOfBalls(int[] slots, int numberOfBalls) {
-        int maxBallInASlot = findTheGreatestBallNumberInASlot(slots);// to calculate  first ball's point
-        int displayedBalls = 0;// Counting displayed balls
-        // Counting non-displayed with numberOfBalls
+        int maxBallInASlot = findTheGreatestBallNumberInASlot(slots);
+        int displayedBalls = 0;
+
 
         while (displayedBalls < numberOfBalls) {
             for (int j = 0; j < slots.length; j++) {
                 if (slots[j] == maxBallInASlot) {
                     System.out.print("0");
-                    slots[j]--;// To displaying the remainder balls in that slot
-                    numberOfBalls--;// When we displayed one, it'll decrease
-                    displayedBalls++;// When we displayed one, it'll increase
+                    slots[j]--;
+                    numberOfBalls--;
+                    displayedBalls++;
                 } else {
                     System.out.print(" ");
                 }
