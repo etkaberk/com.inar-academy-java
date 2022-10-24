@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class exercise08_09 {
     public static void main(String[] args) {
-// 00 12 01 00 10 20
+
         char[][] table = new char[3][3];
         fill(table, ' ');
         int whoseTurn = 0;
