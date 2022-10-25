@@ -25,11 +25,7 @@ public class exercise08_13 {
         }
         return result;
     }
-    /*
-    0 2 3 5
-    3 6 7 3
-    3 6 4 0
-     */
+
     public static int[] locateLargest(double[][] a) { // result = { rowIndex, columnIndex }
         int[] result = new int[2];
         double max = Double.MIN_VALUE;
