@@ -1,7 +1,7 @@
 package chapters.chapter08.exercises08;
 
 import java.util.Scanner;
-
+//mentoring session
 public class exercise08_34 {
     public static void main(String[] args) {
         double[][] points = new double[6][2];

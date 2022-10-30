@@ -1,5 +1,6 @@
 package chapters.chapter08.exercises08;
 import java.util.Scanner;
+//mentoring session
 public class exercise08_21 {
     public static void main(String[] args) {
         double[][] coordinatesOfCities = getCoordinatesOfCitiesFromUser();

@@ -1,6 +1,7 @@
 package chapters.chapter08.exercises08;
 import java.util.Scanner;
 import java.util.Arrays;
+//mentoring session
 public class exercise08_25 {
     public static void main(String[] args) {
         double[][] array = getInput();
