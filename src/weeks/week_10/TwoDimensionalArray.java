@@ -46,5 +46,8 @@ public static int[][] getEmpty2DArrayFromUser(){
     int[][] arr = new int[row][col];
     return arr;
 }
+public void print(){
+
+}
 }
 
