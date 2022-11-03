@@ -37,7 +37,7 @@ public class LocationTest {
         System.out.println("Enter Values --> ");
         for (int i = 0; i < result.length; i++) {
             for (int j = 0; j < result[i].length; j++) {
-                result[i][j] = Math.random() * 15;
+                result[i][j] = input.nextDouble();
             }
         }
         return result;
