@@ -1,5 +1,5 @@
 package chapters.Chapter10.Checkpoints10;
 
-public class Checkpoint10_22 {
+public class Checkpoint10_26 {
 
 }
