@@ -33,13 +33,13 @@ public class exercise08_20 {
     }
 
     private static boolean isGameOver() {
-        if (sameRow() || sameCol() || rightDiagonal() || leftDiagonal()) { // wining case
+        if (sameRow() || sameCol() || rightDiagonal() || leftDiagonal()) {
             System.out.printf("Congratulations!!!\n%s WINS!!!!", isRedTurn ? "RED" : "YELLOW");
             return true;
-        } else if (isTheBoardFull()) {//draw case
+        } else if (isTheBoardFull()) {
             System.out.println("Game is over! It's a DRAW!!");
             return true;
-        } else {//keep playing
+        } else {
             return false;
         }
     }
