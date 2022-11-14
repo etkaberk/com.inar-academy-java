@@ -2,7 +2,7 @@ package chapters.Chapter10.Exercises10;
 import chapters.Chapter10.Listings10.StackOfIntegers;
 
 import java.util.Scanner;
-public class Exercise10_05_DisplayigPrimeFactors {
+public class Exercise10_05_DisplayingPrimeFactors {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter a positive integer  :");
