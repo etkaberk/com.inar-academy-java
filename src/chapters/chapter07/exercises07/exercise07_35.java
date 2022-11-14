@@ -15,7 +15,6 @@ public class exercise07_35 {
         String word ;
 
         do {
-            // In each game a new word
             word = words[(int) (Math.random() * words.length)];
             char[] answer = new char[word.length()];
             askToUser(word, answer);
@@ -50,7 +49,7 @@ public class exercise07_35 {
         }
     }
 
-    // Checks the letter whether is in the word
+
     public static int checkLetter(String word, char[] answer, char ch) {
         for (int i = 0; i < word.length(); i++) {
             if (word.toLowerCase().charAt(i) == ch) {
@@ -58,11 +57,11 @@ public class exercise07_35 {
             }
         }
 
-        return contains(answer, ch) ? 1 : 0;// counts miss time
+        return contains(answer, ch) ? 1 : 0;
 
     }
 
-    // Check whether the input letter has been entered
+
     public static boolean contains(char[] answer, char ch) {
         for (int i = 0; i < answer.length; i++) {
             if (answer[i] == ch) {
@@ -83,7 +82,7 @@ public class exercise07_35 {
         return true;
     }
 
-    // Prints known-letter and asterisks
+
     private static void printTheWordInAsterisk(char[] answer) {
         for (int i = 0; i < answer.length; i++) {
             System.out.print(answer[i]);
@@ -91,7 +90,7 @@ public class exercise07_35 {
         System.out.print(" > ");
     }
 
-    // Fills array with asterisks
+
     public static void fill(char[] answer, char ch) {
         for (int i = 0; i < answer.length; i++) {
             answer[i] = ch;

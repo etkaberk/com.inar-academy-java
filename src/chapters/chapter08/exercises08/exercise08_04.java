@@ -47,7 +47,7 @@ public class exercise08_04 {
         int[] list = new int[hoursWorked.length];
         int sum;
 
-        // Sums the hours that each employee worked for this week
+
         for (int employee = 0; employee < hoursWorked.length; employee++) {
             sum = 0;
             for (int days = 0; days < hoursWorked[employee].length; days++) {

@@ -53,17 +53,17 @@ public class exercise08_29 {
         return result;
     }
     public static boolean isIdentical(double[][] matrix1, double[][] matrix2) {
-        // checking whether matrix 1 and matrix 2 has same number of row
+
         if(matrix1.length != matrix2.length) {
             return false;
         }
 
         for (int i = 0; i < matrix1.length; i++) {
-            // checking whether matrix 1 and matrix 2 has same number of column
+
             if(matrix1[i].length != matrix2[i].length) {
                 return false;
             }
-            // checking matrix 1 and matrix 2 has same values
+
             for (int j = 0; j < matrix1[i].length; j++) {
                 if(matrix1[i][j] != matrix2[i][j]) {
                     return false;

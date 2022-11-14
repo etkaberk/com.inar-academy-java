@@ -95,7 +95,7 @@ public class exercise08_19 {
     }
 
     public static boolean hasConsecutiveFourInDiagonal(int[][] matrix, int row, int column) {
-        // check right diagonal
+
         if (hasRightDiagonal(matrix, row, column)) {
             return true;
         }
