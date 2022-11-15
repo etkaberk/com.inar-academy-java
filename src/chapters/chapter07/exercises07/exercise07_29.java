@@ -1,6 +1,5 @@
 package chapters.chapter07.exercises07;
 
-import java.sql.SQLOutput;
 
 public class exercise07_29 {
     public static void main(String[] args) {

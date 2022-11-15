@@ -2,8 +2,8 @@ package chapters.Chapter10.Exercises10;
 
 import java.util.Scanner;
 
-public class Exersice10_15_TestBoundingRectangle {
-    public Exersice10_15_TestBoundingRectangle() {
+public class Exercise10_15_TestBoundingRectangle {
+    public Exercise10_15_TestBoundingRectangle() {
     }
 
     public static void main(String[] args) {

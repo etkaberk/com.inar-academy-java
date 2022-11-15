@@ -1,6 +1,6 @@
 package chapters.Chapter10.Exercises10;
 
-public class Exercise10_14TestMyDate {
+public class Exercise10_14_TestMyDate {
     public static void main(String[] args) {
         MyDate date1 = new MyDate();
         MyDate date2 = new MyDate(34355555133101L);
