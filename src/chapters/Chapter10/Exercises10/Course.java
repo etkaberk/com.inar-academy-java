@@ -1,6 +1,6 @@
 package chapters.Chapter10.Exercises10;
 
-import java.sql.SQLOutput;
+
 
 public class Course {
     private String name;

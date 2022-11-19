@@ -9,15 +9,8 @@ public class Exercise11_04 {
         System.out.println("the largest one is : " + number);
     }
 public static Integer findTheLargestElement(ArrayList<Integer> list){
-        if(list == null || list.isEmpty())
-            return  null;
-    int maxNumber = list.get(0);
-    for (int i = 0; i < list.size() - 1 ; i++) {
-        if (list.get(i) > maxNumber){
-            maxNumber = list.get(i);
-    }
-    }
-return maxNumber;
+
+    return (java.util.Collections.max(list));
 
 }
 public static ArrayList<Integer> getFromUser(){
