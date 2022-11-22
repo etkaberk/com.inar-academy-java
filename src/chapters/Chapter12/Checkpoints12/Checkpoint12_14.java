@@ -1,5 +1,5 @@
 package chapters.Chapter12.Checkpoints12;
-// will be display as "RunTimeException"
+// will be display as "IndexOutOfBoundsException!"
 public class Checkpoint12_14 {
     public static void main(String[] args) {
         try {
