@@ -63,11 +63,10 @@ this.annualInterestRate = annualInterestRate;
 
     @Override
     public String toString() {
-        return "Loan{" +
-                "annualInterestRate=" + annualInterestRate +
-                ", numberOfYears=" + numberOfYears +
-                ", loanAmount=" + loanAmount +
-                ", loanDate=" + loanDate +
-                '}';
+        return "Loan" +
+                "\nannualInterestRate=" + annualInterestRate +
+                "\nnumberOfYears=" + numberOfYears +
+                "\nloanAmount=" + loanAmount +
+                "\nloanDate=" + loanDate ;
     }
 }
