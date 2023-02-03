@@ -1,4 +1,4 @@
-package chapters.WEEK17_HOMEWORKS;
+package chapters.ArraylistSetMap;
 import java.util.HashSet;
 import java.util.Set;
 public class Set07_06 {

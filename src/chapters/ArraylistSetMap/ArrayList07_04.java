@@ -1,4 +1,4 @@
-package chapters.WEEK17_HOMEWORKS;
+package chapters.ArraylistSetMap;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class ArrayList07_04 {
